@@ -161,6 +161,9 @@ body{
     object-fit: contain;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
 }
+.card-container img:hover{
+    transform: scale(1.05);
+}
 .cards{
     display: flex;
     justify-content: center;
@@ -171,6 +174,19 @@ body{
 }
 .cards p{
     margin: 10px;
+}
+.cards h3{
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    background-color: red;
+    color: white;
+    align-content: center;
+    border-radius: 50%;
+    border:2px solid white;
 }
 .footer-section{
     height: 175px;
