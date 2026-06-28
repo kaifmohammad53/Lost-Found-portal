@@ -241,6 +241,36 @@ body{
     align-content: center;
     align-self: center;
 }
+
+.impact{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+.header{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    height: 3.35rem;
+    width: 25%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: green;
+    margin-bottom: 5px;
+    border-bottom: 2px solid black
+}
+.header p{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
 .footer-section{
     height: 175px;
     /* border: 2px solid white; */
