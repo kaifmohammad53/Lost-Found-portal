@@ -243,11 +243,17 @@ body{
 }
 
 .impact{
-    height: 600px;
+    height: 530px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    /* background:linear-gradient(
+        to left,
+        #FFF8F5,
+        #FFFDF7,
+        #F8FFE8
+        ); */
+        background-color: white;
 }
 .header{
     display: flex;
@@ -258,17 +264,69 @@ body{
     justify-content: center;
 }
 .header h1{
+    font-family: cursive;
     height: 3.35rem;
     width: 25%;
     text-align: center;
     font-size: 2.5rem;
     color: green;
-    margin-bottom: 5px;
+    margin-top: 20px;
     border-bottom: 2px solid black
 }
 .header p{
     font-size: 1.7rem;
     margin-bottom: 10px;
+}
+.impact-card{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 70%;
+    display:grid;
+    grid-template-columns:repeat(4,0.5fr);
+    
+    gap:100px;
+}
+.icard:hover{
+    transform: scale(1.05);
+}
+.icard{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    border-radius: 5%;
+}
+.icard i{
+    align-content: center;
+    color: green;
+    border: 2px solid white;
+    height: 40%;
+    width: 50%;
+    border-radius: 50%;
+    font-size: 6.5rem;
+    box-shadow: 0px 4px 10px rgba(34, 197, 94, 0.25);
+}
+.num{
+    font-weight: bolder;
+    font-size: 2.75rem;
+    color: green;
+}
+.icard h3{
+    font-size: 1.5rem;
+}
+.icard p{
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .footer-section{
