@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: radial-gradient(
+        circle at center,
+        #f6f6ea 0%,
+        #F8FAF5 60%,
+        #e8f6dd 100%
+    );
+}
+.container{
+    width: 93vw;
+    height: 93vh;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.image{
+    height: 100%;
+    width: 50%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-box{
+    width: 50%;
+    height: 100%;
+    background: white;
+    display: flex;
+    padding-top:20px;
+    justify-content: center;
+}
