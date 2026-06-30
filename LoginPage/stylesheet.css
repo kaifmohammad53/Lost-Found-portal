@@ -52,11 +52,18 @@ body{
     width:160px;
     margin-bottom:20px;
 }
-.login-box{
-    width: 50%;
+.login{
+    width:50%;
     height: 100%;
-    background: white;
     display: flex;
-    padding-top:20px;
     justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 96%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid green;
 }
