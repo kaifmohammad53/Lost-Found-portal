@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lost & Found</title>
     <link rel="stylesheet" href="/LoginPage/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
     <div class="container">
@@ -17,46 +18,41 @@
         </div>
     <div class="login">
         <div class="box">
+            <div class="para">
+                 <p id=".para">New Here? <a href="#" style="text-decoration: none;color: green;">Create Account</a></p>
+            </div>
+            <i class="fa-solid fa-user-lock lock"></i>
+            <div class="header">
+                <h1>Welcome Back!</h1>
+                <p>Login to continue to your account</p>
+            </div>
+            <div class="email">
+                <p><i class="fa-solid fa-user"></i> Email or Phone</p>
+                <input type="text" placeholder="Enter Your email or phone number">
+            </div>
+            <div class="passwd">
+                <p><i class="fa-solid fa-lock"></i>Password</p>
+                <input type="password" placeholder="Enter your password">
+            </div>
+            <div class="remember">
+                <label>
+                    <input type="checkbox">
+                    Remember Me
+                </label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <div class="button">
+                <button>Login</button>
+            </div>
+            <p class="divider">or continue with</p>
+            <div class="continue">
+                <button>Google</button>
+                <button>Microsoft</button>
+            </div>
+            <p class="secure">🔒 Your information is secure with us.</p>
 
-        <p>New Here? <a href="#">Create Account</a></p>
-
-        <h1>Welcome Back</h1>
-        <p>Login to your account</p>
-
-        <div class="email">
-            <p>Email or Phone</p>
-            <input type="text" placeholder="Your email or phone number">
         </div>
-
-        <div class="passwd">
-            <p>Password</p>
-            <input type="password" placeholder="Enter your password">
-        </div>
-
-        <div class="remember">
-            <label>
-                <input type="checkbox">
-                Remember Me
-            </label>
-
-            <a href="#">Forgot Password?</a>
-        </div>
-
-        <div class="button">
-            <button>Login</button>
-        </div>
-
-        <p class="divider">or continue with</p>
-
-        <div class="continue">
-            <button>Google</button>
-            <button>Microsoft</button>
-        </div>
-
-        <p class="secure">🔒 Your information is secure with us.</p>
-
     </div>
-</div>
     </div>
     <script src="/LoginPage/script.js"></script>
 </body>
