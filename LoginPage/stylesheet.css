@@ -71,11 +71,13 @@ body{
     align-self: flex-end;
     font-size: 1.15rem;
     margin-right: 20px;
-}
-.para a{
     transition: all ease-in 0.5s;
 }
-.para a:hover{
+#newReg{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+#newReg:hover{
     transform: scale(1.05);
 }
 .lock{
@@ -169,3 +171,4 @@ a:hover{
 .button button:hover{
     transform: scale(1.05);
 }
+
