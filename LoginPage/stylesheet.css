@@ -97,6 +97,7 @@ body{
     border-bottom: 2px solid green;
     /* border: 2px solid red; */
 }
+
 .header p{
     margin-top: 10px;
     font-size: 1.45rem;
@@ -213,4 +214,5 @@ p{
 .continue button:hover{
     transform: scale(1.05);
 }
+
 
