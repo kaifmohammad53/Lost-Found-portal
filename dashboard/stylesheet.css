@@ -52,6 +52,12 @@
     width: 100%;
     height: 100px;
     border-radius: 12px;
-    background-image:url(./motivation-l&f.png) ;
+    background-image:url(./motivation-l&f\ \(1\).png) ;
     background-size: cover;
+}
+.panels p:hover{
+    border-color: #2E7D32;
+    box-shadow: 0 0 0 2px green;
+    background-color: rgba(46,125,50,0.15);
+    color: #2E7D32;
 }
