@@ -61,3 +61,51 @@
     background-color: rgba(46,125,50,0.15);
     color: #2E7D32;
 }
+.navbar{
+    position: fixed;
+    left: calc(15vw + 24px); 
+    width: calc(100vw - 15vw - 24px);
+    height: 70px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(12px);
+    border-bottom: 2px solid grey;
+    border-left:2px solid grey;
+    border-radius: 12px;
+    box-shadow:  0px 2px 0 2px rgba(46,125,50,0.15);
+    /* color: green; */
+}
+.navbar-l{
+    padding-left: 25px;
+}
+.navbar-l button{
+    margin-left:20px;
+    font-size: 1.10rem;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
+    /* color:green; */
+}
+.navbar-r{
+    height: 2rem;
+    width: 200px;
+    align-content: center;
+    align-items: center;
+    padding-right: 2dvh;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 1.8rem;
+}
+.navbar-l button:hover{
+    color: #2E7D32;
+    border-bottom:2px solid green;
+}
+.navbar-r i:hover{
+    color: green;
+}
