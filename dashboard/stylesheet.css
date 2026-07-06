@@ -95,6 +95,29 @@
     justify-content: space-between;
     /* align-items: center; */
 }
+.navbar-c{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    border: 1.8px solid #D1D5DB;
+    border-radius: 12px;
+    background: white;
+}
+.input{
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+}
+.navbar-c i{
+    color: #9CA3AF;
+    font-size: 1rem;
+}
 .navbar-r{
     height: 2rem;
     width: 200px;
