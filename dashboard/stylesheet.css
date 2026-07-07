@@ -159,6 +159,7 @@ body{
     #E7F2DF 100%
 );
 border-radius: 12px;
+ box-shadow:  0px 2px 0 2px rgba(46,125,50,0.15);
 }
 .text{
     padding-left:50px;
@@ -180,7 +181,7 @@ border-radius: 12px;
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    width: 80%;
+    width: 100%;
 }
 .button button{
     display: flex;
@@ -204,11 +205,11 @@ border-radius: 12px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 180px;
 }
 
 .img img{
-    height: 85%;
+    height: 95%;
     width: auto;
     object-fit: contain;
 }
