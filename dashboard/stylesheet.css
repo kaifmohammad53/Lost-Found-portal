@@ -142,3 +142,73 @@ body{
 .navbar-r i:hover{
     color: green;
 }
+.hero{
+    position: fixed;
+    top: 72.5px;
+    left: calc(15vw + 24px); 
+    width: calc(100vw - 15vw - 24px);
+    height: 200px;
+    border: 2px solid grey;
+    display:flex;
+    align-items: center;
+    background: linear-gradient(
+    135deg,
+    #FFFDF8 0%,
+    #F8FBF5 45%,
+    #EEF6E8 75%,
+    #E7F2DF 100%
+);
+border-radius: 12px;
+}
+.text{
+    padding-left:50px;
+    width: 50%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.text p{
+    font-size: 1.15rem;
+}
+.text h1{
+    font-size: 2.5rem;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+}
+.button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 100%;
+    font-size: 1.15rem;
+    border-radius: 12px;
+    border: 2px solid green;
+    gap: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    transition: all ease-in 0.5s;
+}
+.button button:hover{
+    scale: 1.05;
+}
+.img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.img img{
+    height: 85%;
+    width: auto;
+    object-fit: contain;
+}
