@@ -146,7 +146,7 @@ body{
     position: fixed;
     top: 72.5px;
     left: calc(15vw + 24px); 
-    width: calc(100vw - 15vw - 24px);
+    width: calc(100vw - 15vw -  30px);
     height: 200px;
     border: 2px solid grey;
     display:flex;
@@ -212,4 +212,45 @@ border-radius: 12px;
     height: 95%;
     width: auto;
     object-fit: contain;
+}
+.statistics-card{
+    position: fixed;
+    top: 277px;
+    left: calc(15vw + 24px);
+    width: calc(100vw - 15vw - 40px); 
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* border: 2px solid grey;
+    border-radius: 12px; */
+    gap: 15px;
+}
+.cards{
+    border: 2px solid grey;
+    width:25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border-radius: 12px;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 65%;
+    height: 100%;
+}
+.icon{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 3rem;
 }
