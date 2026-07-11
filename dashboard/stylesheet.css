@@ -336,7 +336,7 @@ a{
     width: 80px;
     border-radius: 10px;
     font-size: 1.15rem;
-    background-color: #2E7D32;
+    background-color: rgba(34, 197, 94, 0.25);
     border: none;
-    color: black;
+    color: green;
 }
